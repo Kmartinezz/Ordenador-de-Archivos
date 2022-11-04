@@ -50,7 +50,8 @@ if __name__ == "__main__":
                 os.mkdir(askFolder + "/Word/")
                 wordFolder = askFolder + "/Word/"
                 os.rename(askFolder + "/" + filename, wordFolder + filename)
-        
+
+
         if extension in [".pptx"]:
             if os.path.exists(askFolder + "/PPT/"):
                 pptFolder = askFolder + "/PPT/"
@@ -70,6 +71,7 @@ if __name__ == "__main__":
                 exeFolder = askFolder + "/Ejecutables/"
                 os.rename(askFolder + "/" + filename, exeFolder + filename)
 
+
         if extension in [".rar", ".zip"]:
             if os.path.exists(askFolder + "/RAR/"):
                 rarFolder = askFolder + "/RAR/"
@@ -78,6 +80,7 @@ if __name__ == "__main__":
                 os.mkdir(askFolder + "/RAR/")
                 rarFolder = askFolder + "/RAR/"
                 os.rename(askFolder + "/" + filename, rarFolder + filename)
+
 
         if extension in [".txt"]:
             if os.path.exists(askFolder + "/Text/"):
