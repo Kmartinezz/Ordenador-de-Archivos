@@ -1,3 +1,3 @@
 # Ordenador-de-Archivos
--Instalar Pillow
 -Instalar Tkinter
+ Ordenador de arhcivos aun en proceso pero funcional.
