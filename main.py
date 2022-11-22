@@ -1,5 +1,4 @@
 #Agregar siesque el archivo existe
-
 import tkinter 
 from tkinter.filedialog import askdirectory
 from tkinter import messagebox
